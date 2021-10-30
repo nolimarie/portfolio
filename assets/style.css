@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: gray;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;;
+}
+header {
+    padding: 20px;
+    background-color:darkslategray;
+    color: turquoise;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-size: 25px;
+}
+
+header nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 25px;
+  color: darkturquoise;
+}
+
+a {
+    color: turquoise;
+   text-decoration: none;
+}
+
+.header {
+    display: block;
+    margin-left: 20px;
+    font-size: 50px;
+    color: darkslategray;
+    }
+
+.hero-image {
+    background-image: url("./MtnSunset.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 115px;
+    background-size: cover;
+    position: relative;
+}
+
+h2 {
+    margin-inline: 20px;
+    float: right;
+    color: darkslategray;
+}
