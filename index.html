@@ -1,85 +1,79 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="reset" src="https://meyerweb.com/eric/tools/css/reset/reset.css">
-    <link rel="stylesheet" href="assets/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Zen+Kaku+Gothic+Antique&display=swap"
+    <title>Portfolio-Web Development</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Abril+Fatface&family=Montagu+Slab:wght@400;500;600;700&display=swap"
         rel="stylesheet">
-    <title>Portfolio</title>
 </head>
+
 <body>
-    <div class="box-wrapper">
-        <div id="box1">
-            <h1>Nicole Lucena</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#About-Me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#Work">Work</a>
-                    </li>
-                    <li>
-                        <a href="#Contact-Me">Contact Me</a>
-                    </li>
-                    <li>
-                        <a href="#Resume">Resume</a>
-                    </li>
-                </ul>
-            </nav>
+    <header>
+        <h1>Nicole Lucena</h1>
+    </header>
+    <nav>
+        <a href="#About-Me">About Me</a>
+        <a href="#Work">Work</a>
+        <a href="#Contact-Me">Contact Me</a>
+        <a href="#Resume">Resume</a>
+    </nav>
+    <!-- Body -->
+    <main>
+        <!-- Sidebar -->
+        <aside>
+            <h2>About Me</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis velit dignissimos voluptatum eveniet
+            dolor, fugit ab expedita dolorem saepe ducimus magnam repudiandae. Ratione modi quis sint sapiente?
+            Quasi, necessitatibus modi.
+            </p>
+        </aside>
+        <!-- Product Cards -->
+        <div class="portfolio">
+            <section class="card">
+                <header></header>
+                <a href="#" target="_blank"><img src="./assets/Passion.jfif" alt="photo" /></a>
+                <p>The Best Is Yet To Come</p>
+            </section>
+            <section class="card">
+                <header>Project 1</header>
+                <a href="https://nolimarie.github.io/code-refactoring/" target="_blank"><img src="./assets/Project1.PNG"
+                        alt="project1" /></a>
+                <p><a href="https://github.com/nolimarie/code-refactoring" target="_blank">Project 1 code</a></p>
+            </section>
+            <section class="card">
+                <header>Project 2</header>
+                <a href="https://nolimarie.github.io/portfolio/" target="_blank"><img src="./assets/Project2.PNG" alt="project2image" /></a>
+                <p><a href="https://github.com/nolimarie/portfolio.git" target="_blank">Project 2 Code</a></p>
+            </section>
+            <section class="card">
+                <header>Project 3/Group Project</header>
+                <a href="https://elliscj.github.io/project-1/" target="_blank"><img src="./assets/Project3.PNG" alt="project3image" /></a>
+                <p><a href="https://github.com/elliscj/project-1.git" target="_blank">Project 3 Code</a></p>
+            </section>
+            <section class="card">
+                <header>Project 4</header>
+                <img src="./assets/ComingSoon.jpg" alt="project4image" />
+                <p>work in progress</p>
+            </section>
         </div>
-        <div id="box2">
-            <div img alt="Mountain Sunset" /div>
-                <h2 style="font-size:30px">Dynamic Designs</h2>
-            </div>
-            <div id="box3" ; style="width: 100%; display: table;">
-                <div style="display: table-row; height: 75px;">
-                    <div style="width: 20%; display:table-cell;">
-                        <h3>About Me</h3>
-                    </div>
-                    <div style="display: table-cell; text-align: left; font-size: 25px;">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit tempore facere sed
-                        officiis modi? Id cum, officiis, explicabo vero similique aliquam asperiores at dolorum culpa
-                        soluta repudiandae aperiam sint enim quis quaerat corporis ut est eos recusandae numquam ea
-                        distinctio suscipit veniam? Ipsum veritatis adipisci aperiam fuga aut suscipit ex temporibus
-                        quia vel, accusamus corrupti, quod quidem neque odit ipsam cupiditate mollitia recusandae
-                        deleniti iure voluptatibus officia eius provident officiis magni! Iusto tempore ratione voluptas
-                        quas voluptates nostrum asperiores enim consequuntur minima vitae aspernatur voluptatum
-                        doloremque porro, sequi laboriosam neque suscipit blanditiis veritatis non, recusandae id velit
-                        pariatur. Repellendus, atque.
-                    </div>
-                </div>
-            </div>
-            <div id="box4" ; style="width: 100%; display: table;">
-                <div style="display: table-row; height: 400px;">
-                    <div style="width: 20%; display:table-cell;">
-                        <h4>Work</h4>
-                    </div>
-                    <div style="display: table-cell;">
-                        <img id="spiral" src="./assets/Spiral.jfif" alt="Metal Spiral"/>
-                    </div>
-                </div>
-            </div>
-            <div class="middle-column">
-                <div id="box5">
-                    WorkPic2
-                </div>
-                <div id="box6">
-                    WorkPic3
-                </div>
-                <div id="box7">
-                    WorkPic4
-                </div>
-            </div>
-            <div id="box8">
-                WorkPic5
-            </div>
-        </div>
-    </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <h3>Contact Me</h3>
+            <ul>
+                <li>732.801.8974</li>
+                <li>nolimarie@msn.com</li>
+                <li>Github</li>
+                <li>Linkedin</li>
+            </ul>
+    </footer>
 </body>
 
 </html>
