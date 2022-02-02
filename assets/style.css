@@ -15,18 +15,18 @@ header {
   padding: 5px;
   text-align: left;
   font-size: 20px;
-  background: slategray;
-  color: turquoise;
+  background: rgb(150, 171, 192);
+  color: rgb(30, 139, 172);
 }
 
 nav {
   display: flex;
-  background-color: turquoise;
+  background-color: rgb(93, 157, 177);
 
 }
 
 nav a {
-  color:slategray;
+  color:rgb(51, 58, 66);
   padding: 5px 20px;
   text-decoration: none;
   justify-content: left;
@@ -40,7 +40,8 @@ main {
 
 aside {
   flex: 1;
-  background-color: #b9c6ae;
+  background-color: #a9c1cc;
+  color: rgb(30, 139, 172);
   padding: 80px;
   text-align: left;
 }
@@ -50,8 +51,8 @@ footer {
   bottom: 0;
   padding: 10px;
   text-align: center;
-  background:slategray;
-  color: turquoise;
+  background: rgb(150, 171, 192);
+  color: rgb(30, 139, 172);
   margin-top: auto;
 }
 
